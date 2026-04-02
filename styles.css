@@ -1,1 +1,87 @@
-/*  your css code here. If applicable */
+
+    /* Basic styling to match the image provided */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 span {
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .form-group {
+      margin-bottom:0;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box; /* Ensures padding doesn't affect width */
+    }
+
+    #submit {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    #submit:hover {
+      background-color: #0056b3;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .table th, .table td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    .table th {
+      border-bottom: 2px solid #000;
+    }
+
+   
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: #f4f4f4;
+    }
+
+    /* Delete button styling */
+    .delete {
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .delete:hover {
+      background-color: #a71d2a;
+    }
